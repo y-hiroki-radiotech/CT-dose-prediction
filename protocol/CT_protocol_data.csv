@@ -1,0 +1,522 @@
+scan_protocol_no,scan_protocol_name,scan_series,Speed,Type,Rows,HiRes,Shuttle,Tilt,SFOV,kV,SmartmA,NoiseIndex,MinmA,MaxmA,Message,Timer,Light,CTDI,CTDI NV,DLP,DLP NV,mA, pitch
+1.5, QQ Brain-Head Routine TFI-H,Series 1,0.8, Helical,64, false, false, S0.0, Adult Head,100, true,4,150,515,102,0,0,55.19,1000,1880.49,1000,,
+1.3, Dental non-Helical,,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,140, true,18,80,150,101,0,0,29.72,1000,475.46,1000,,
+1.4, QQ Brain non-Helical Routine,,1, Axial,256, false, false, S0.0, Adult Head,100, true,4,200,720,101,0,0,66.38,1000,1062.1,1000,,
+1.11, Head CTA 1Volume SmartPrep Routine,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.26,1000,884.2,1000,,
+1.11, Head CTA 1Volume SmartPrep Routine,Series 3 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,52.5,1000,839.99,1000,,
+1.17, Head CTA+CTV 1Volume SmartPrep,Series 1 Group 1 Recon 1 Recon Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.26,1000,884.2,1000,,
+1.17, Head CTA+CTV 1Volume SmartPrep,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.26,1000,884.2,1000,,
+1.17, Head CTA+CTV 1Volume SmartPrep,Series 3 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,52.5,1000,839.99,1000,,
+1.17, Head CTA+CTV 1Volume SmartPrep,Series 3 Group 2 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,52.5,1000,839.99,1000,,
+1.2, Brain Helical Routine,Series 2 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Adult Head,100, true,3.2,150,515,101,0,0,55.14,1000,1216.97,1000,,
+1.2, Brain Helical Routine,Series 3 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Adult Head,100, true,3.2,150,515,101,0,0,55.14,1000,1327.24,1000,,
+1.18, Head CTA+CTV Helical SmartPrep,Series 2 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Adult Head,100, true,3.2,200,515,101,0,0,49.01,1000,885.7,1000,,
+1.18, Head CTA+CTV Helical SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,48.82,1000,881.4,1000,,
+1.18, Head CTA+CTV Helical SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,48.82,1000,881.4,1000,,
+1.14, Head-Neck CTA Helical SmartPrep Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, false,11.6,200,700,101,0,0,6.63,1000,218.13,1000,,
+1.14, Head-Neck CTA Helical SmartPrep Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,100, false,8,200,570,101,0,0,34.33,1000,1129.16,1000,,
+1.13, Head Perfusion Routine,Series 2 Group 1 Scan Settings ,0.35, Axial, SmartCollimation, false, false, S0.0, Adult Head,80,285,,,,101,0,0,202.74,1000,3243.76,1000,,
+1.19, QQ (Plain),Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.26,1000,884.2,1000,,
+1.19, QQ (Plain),Series 3 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Medium,100, true,11.6,200,700,102,0,2,3.88,1000,291.47,1000,,
+1.2, QQ (Plain + CE 2Phase),Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.26,1000,884.2,1000,,
+1.2, QQ (Plain + CE 2Phase),Series 3 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Medium,100, true,11.6,200,700,102,0,2,3.88,1000,291.47,1000,,
+1.2, QQ (Plain + CE 2Phase),Series 4 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Medium,100, true,11.6,200,700,102,0,2,3.88,1000,291.47,1000,,
+1.21, AI,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,100, true,2,350,700,101,0,0,76.58,1000,1383.91,1000,,
+1.21, AI,Series 3 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Medium,100, true,6,300,720,102,0,2,14.03,1000,969.02,1000,,
+1.22, GSI - Head Helical,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,84.62,1000,1866.67,1000,395,33
+1.22, GSI - Head Helical,Series 3 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,84.62,1000,2035.9,1000,395,33
+1.15, GSIX - Head CTA Helical SmartPrep Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,35.65,1000,643.79,1000,280,33
+1.15, GSIX - Head CTA Helical SmartPrep Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,30.08,1000,543.26,1000,280,33
+1.23, GSI - Neck CTA SmartPrep,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,8.8,1000,317.43,1000,185,127
+1.23, GSI - Neck CTA SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,8.8,1000,317.43,1000,185,127
+1.1, Brain 100mm 2Volume,Series 2 Group 1 Scan Settings ,1, Axial,160, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,76.05,1000,1368.94,1000,,
+1.1, Brain 100mm 2Volume,Series 3 Group 1 Scan Settings ,1, Axial,160, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,63.38,1000,1140.79,1000,,
+1.16, GSIX - Head-Neck CTA Helical SmartPrep Routine ,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,35.65,1000,643.79,1000,280,33
+1.16, GSIX - Head-Neck CTA Helical SmartPrep Routine ,Series 3 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,15.76,1000,518.42,1000,280,63
+1.6, Brain non-Helical Routine,Series 2 Group 1 Scan Settings ,1, Axial,256, false, false, S0.0, Adult Head,100, true,4,200,720,101,0,0,66.38,1000,1062.1,1000,,
+1.6, Brain non-Helical Routine,Series 3 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,4,200,720,101,0,0,55.32,1000,885.08,1000,,
+1.9, Dental Helical 140kV Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,140, true,17,80,130,101,0,2,33.38,1000,602.74,1000,,
+1.7, Brain Head Routine TFI-H,Series 2 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Adult Head,100, true,4,150,515,102,0,0,55.19,1000,2432.42,1000,,
+1.8, GSIX - Head Helical,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,84.62,1000,1866.67,1000,395,33
+1.8, GSIX - Head Helical,Series 3 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,84.62,1000,2035.9,1000,395,33
+1.1, GSIX Dental Helical,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,140,,,,,101,0,2,8.8,1000,176.65,1000,185,127
+1.12, Head CTA+CTV 1Volume SmartPrep Routine,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,3.2,200,720,101,0,0,55.32,1000,885.08,1000,,
+1.12, Head CTA+CTV 1Volume SmartPrep Routine,Series 3 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,100, true,3.2,200,570,101,0,0,52.55,1000,840.83,1000,,
+1.25, RT Head,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120, false,6,150,515,102,0,0,39.48,1000,1739.87,1000,,
+2.1, Sinus&Face Axial,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,6.1,100,330,101,0,0,30.39,1000,486.31,1000,,
+2.1, Sinus&Face Axial,Series 3 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,100, true,6.1,100,330,101,0,0,9.21,1000,147.37,1000,,
+2.3, Inner Ear non-Helical Routine,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Adult Head,100, true,6.1,100,330,101,0,0,31.37,1000,313.72,1000,,
+2.2, QQ Orbit Sinus Helical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, true,8,100,330,101,0,0,9.2,1000,166.24,1000,,
+2.2, QQ Orbit Sinus Helical Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, true,8,100,330,101,0,0,9.2,1000,166.24,1000,,
+2.4, Navigation Orbit Sinus Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, true,6.1,100,330,101,0,0,9.19,1000,166.07,1000,,
+3.1, Head-Neck,Series 2 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,100, true,3.2,150,580,101,0,0,55.5,1000,1224.91,1000,,
+3.1, Head-Neck,Series 2 Group 2 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,100, true,5,150,700,101,0,0,66.6,1000,1569.79,1000,,
+3.1, Head-Neck,Series 3 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,100, true,3.2,150,580,101,0,0,55.5,1000,1224.91,1000, ,
+3.1, Head-Neck,Series 3 Group 2 Scan Settings ,0.5, Helical,64, false, false, S0.0, Adult Head,100, true,5,150,700,101,0,0,66.6,1000,1569.79,1000,,
+3.3, Neck Helical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,17.19,1000,566.03,1000,,
+3.3, Neck Helical Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,17.19,1000,737.95,1000,,
+3.4, Neck - Chest Helical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,250,700,102,0,2,14.32,1000,803.77,1000,,
+3.4, Neck - Chest Helical Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,250,700,102,0,2,14.32,1000,803.77,1000,,
+3.5, Neck - Pelvis Helical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,250,700,102,0,2,14.32,1000,1161.84,1000,,
+3.5, Neck - Pelvis Helical Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,250,700,102,0,2,14.32,1000,1161.84,1000,,
+3.2, C-Spine non Helical Routine ,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Small Body,100, true,5,150,700,101,0,2,9.36,1000,262.05,1000,,
+3.8, GSI - Neck,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120,,,,,102,0,2,8.48,1000,279.1,1000,215,63
+3.8, GSI - Neck,Series 3 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120,,,,,102,0,2,8.48,1000,363.92,1000,215,63
+3.9, GSI - C-Spine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120,,,,,101,0,0,8.48,1000,245.17,1000,215,63
+3.1, QQ C-Spine Helical MAR Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,8.66,1000,260.45,1000,,
+3.12, Neck 4D,Series 2 Group 1 Scan Settings ,0.35, Cine,160, false, false, S0.0, Adult Head,80, true,11.6,100,600,102,0,2,54.11,1000,541.12,1000,,
+3.7, GSIX  C-Spine Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,14.49,1000,476.64,1000,270,63
+3.6, Neck CTA Helical SmartPrep Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, true,11.6,200,700,102,0,1,6.62,1000,217.91,1000,,
+3.6, Neck CTA Helical SmartPrep Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,100, true,11.6,200,570,102,0,1,34.3,1000,1128.03,1000,,
+3.6, Neck CTA Helical SmartPrep Routine,Series 3 Group 2 Scan Settings ,0.6, Helical,64, true, false, S0.0, Adult Head,100, true,11.6,200,570,102,0,1,34.3,1000,1128.03,1000,,
+3.11, GSI - Neck - Copy,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120,,,,,102,0,2,9.07,1000,298.49,1000,185,63
+3.11, GSI - Neck - Copy,Series 3 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120,,,,,102,0,2,9.07,1000,389.2,1000,215,63
+3.14, GSIX Special ,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,17.19,1000,256.57,1000,,
+3.14, GSIX Special ,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,704.58,1000,185,127
+3.14, GSIX Special ,Series 4 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,17.19,1000,256.57,1000,,
+3.15, GSIX neck-Pelvi CE Only ,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,757.37,1000,185,127
+3.13, GSIX neck-Pelvi P+CE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,720,102,0,2,20.1,1000,1781.8,1000,,
+3.13, GSIX neck-Pelvi P+CE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+4.12, Hand Tendon 140keV nonHelical,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Small Body,140, true,7.8,200,405,102,0,0,22.43,1000,448.67,1000,,
+4.1, Shoulder Axial,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Medium,100, true,7.8,150,570,101,0,0,12.15,1000,291.65,1000,,
+4.4, QQ Arm on Abd Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Medium,100, true,7.8,200,700,102,0,2,10.25,1000,267.29,1000,,
+4.3, Arm on Abd Axial,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Medium,120, true,7.8,200,700,102,0,2,19.04,1000,456.86,1000,,
+4.6, QQ Arm over Head Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Small Body,100, true,7.8,100,450,102,0,0,8.65,1000,225.44,1000,,
+4.5, Arm over Head Axial,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Small Body,100, true,7.8,100,450,102,0,0,9.79,1000,215.47,1000,, 
+4.8, GSI - Shoulder,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,13.5,1000,336.21,1000,380,63
+4.9, GSI - Arm on Abd,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,2,13.5,1000,336.21,1000,380,63
+4.1, GSI - Arm over Head,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,0,13.5,1000,336.21,1000,380,63
+4.2, QQ Shoulder Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Medium,100, true,7.8,150,570,102,0,2,10.25,1000,267.11,1000,,
+4.13, GSIX Arm over Head Helical,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,0,14.49,1000,360.75,1000,270,63
+4.7, Hand nonHelical Routine,Series 2 Group 1 Scan Settings ,0.6, Axial, SmartCollimation, true, false, S0.0, Small Body,100, true,7.8,100,450,102,0,0,9.92,1000,198.49,1000,, 
+4.14, GSI Hand Helical SD3,Series 2 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Medium,140,,,,,102,0,0,26.28,1000,619.14,1000,485,33
+4.15, Hand Tendon 140keV nonHelical naga,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Small Body,140,,,,,102,0,0,16.6,1000,265.6,1000,200,
+4.16, GSIX - Shoulder Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,1,14.49,1000,360.75,1000,270,63
+4.11, Shunt CTA Routine SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+4.11, Shunt CTA Routine SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.32,1000,618.19,1000,,
+4.11, Shunt CTA Routine SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+4.17, Hand Tendon 140keV Helical,Series 2 Group 1 Scan Settings ,1, Helical,64, true, false, S0.0, Small Body,140, true,3,200,405,102,0,0,16.46,1000,560.53,1000,,
+5.13, PA PV (29s 90s) Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,7.5,1000,278.23,1000,,
+5.13, PA PV (29s 90s) Routine,Series 2 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,7.5,1000,199.52,1000,,
+5.17, ASO SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,1244.09,1000,,
+5.17, ASO SmartPrep,Series 3 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.18,1000,1199.88,1000,,
+5.18, AKA Go&Return SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+5.18, AKA Go&Return SmartPrep,Series 3 Group 1 Scan Settings ,0.35, Helical,64, false, false, S0.0, Medium,100, true,9.8,200,700,102,0,2,10.39,1000,634.35,1000,,
+5.18, AKA Go&Return SmartPrep,Series 3 Group 2 Scan Settings ,0.35, Helical,64, false, false, S0.0, Medium,100, true,9.8,200,700,102,0,2,10.39,1000,634.35,1000,,
+5.39, CCTA + Function,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.39, CCTA + Function,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,1,7.49,1000,104.91,1000,,
+5.32, GSIX Chest Low CA,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,12.2,100,700,102,0,2,10.46,1000,613.5,1000,185,127
+5.32, GSIX Chest Low CA,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,317.43,1000,,
+5.1, QQ Chest Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,612.89,1000,,
+5.1, QQ Chest Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,403.84,1000,,
+5.11, PA + DV Pause,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.13,1000,376.12,1000,,
+5.11, PA + DV Pause,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,80, true,11.6,150,600,102,0,2,4.65,1000,562.63,1000,,
+5.4, CABG,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,17.3,50,250,102,0,1,1.53,1000,55.15,1000,,
+5.4, CABG,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.4, CABG,Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,1,6.47,1000,237.7,1000,,
+5.42, CABG + Function,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,17.3,50,250,102,0,1,1.51,1000,54.51,1000,,
+5.42, CABG + Function,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.97,1000,47.45,1000,,
+5.42, CABG + Function,Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,1,7.11,1000,261.34,1000,,
+5.19, Ablation,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,17.3,50,250,103,0,1,1.51,1000,54.51,1000,,
+5.19, Ablation,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Medium,120, true,25,100,740,103,0,1,25.34,1000,931.21,1000,,
+5.2, TAVI (Helical+Axial+Helical),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,50,560,102,0,1,1.37,1000,104.44,1000,,
+5.2, TAVI (Helical+Axial+Helical),Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,50,200,102,0,1,2.91,1000,46.53,1000,,
+5.2, TAVI (Helical+Axial+Helical),Series 4 Group 1 Scan Settings ,0.28, Helical,64, false, false, S0.0, Medium,100, true,14.7,300,720,102,0,0,2.92,1000,55.19,1000,,
+5.2, TAVI (Helical+Axial+Helical),Series 4 Group 2 Scan Settings ,0.28, Cardiac,256, false, false, S0.0, Cardiac Medium,120, true,13.9,100,740,102,0,0,14.5,1000,231.97,1000,,
+5.2, TAVI (Helical+Axial+Helical),Series 4 Group 3 Scan Settings ,0.28, Helical,64, false, false, S0.0, Medium,100, true,14.7,150,720,102,0,0,5.44,1000,276.54,1000,,
+5.21, TAVI (Coronary+Aorta no link),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,150,700,102,0,2,1.53,1000,100.95,1000,,
+5.21, TAVI (Coronary+Aorta no link),Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,50,200,102,0,1,2.61,1000,41.7,1000,,
+5.21, TAVI (Coronary+Aorta no link),Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,0,35.67,1000,570.77,1000,,
+5.21, TAVI (Coronary+Aorta no link),Series 4 Group 2 Scan Settings ,0.28, Helical,64, false, false, S0.0, Medium,100, true,11.6,150,720,102,0,0,18.13,1000,1161.62,1000,,
+5.22, GSI - Chest,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,303.61,1000,215,127
+5.22, GSI - Chest,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,303.61,1000,215,127
+5.23, GSI - Chest - Pelvis,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,530.84,1000,215,127
+5.23, GSI - Chest - Pelvis,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,530.84,1000,215,127
+5.24, GSI - PA + DV,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+5.24, GSI - PA + DV,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,326.23,1000,185,127
+5.24, GSI - PA + DV,Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,80,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+5.25, GSI - Aorta CTA SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.15,1000,640.86,1000,,
+5.25, GSI - Aorta CTA SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,530.84,1000,215,127
+5.25, GSI - Aorta CTA SmartPrep,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.42,1000,530.84,1000,215,127
+5.26, GSI - ASO SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.15,1000,1229.74,1000,,
+5.26, GSI - ASO SmartPrep,Series 3 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,2,10.5,1000,1238.47,1000,380,63
+5.29, GSIX PE+ DVT Routine,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,6.35,1000,244.94,1000,185,176
+5.29, GSIX PE+ DVT Routine,Series 2 Group 2 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,80,,,,,102,0,2,14.49,1000,1128.53,1000,270,63
+5.44, CARTO R to R,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,17.3,50,250,103,0,1,1.53,1000,55.15,1000,,
+5.44, CARTO R to R,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Medium,120, true,25,100,740,103,0,1,34.82,1000,487.49,1000,,
+5.4, QQ Chest - Pelvis  Routine ,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.44,1000,638.05,1000,,
+5.4, QQ Chest - Pelvis  Routine ,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.44,1000,638.05,1000,,
+5.2, Chest (Low Dose),Series 2 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Medium,100, true,30,50,150,102,0,2,1.75,1000,67.72,1000,,
+5.5, Chest - Pelvis  (90sec 300sec),Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,665.15,1000,,
+5.5, Chest - Pelvis  (90sec 300sec),Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,665.15,1000,,
+5.5, Chest - Pelvis  (90sec300sec),Series 4 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,665.15,1000,,
+5.1, Chest - Pelvis Dynamic (40sec70sec180sec)Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,268.29,1000,,
+5.1, Chest - Pelvis Dynamic (40sec70sec180sec)Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+5.1, Chest - Pelvis Dynamic (40sec70sec180sec)Routine,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,679.15,1000,,
+5.1, Chest - Pelvis Dynamic (40sec70sec180sec)Routine,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+5.12, Chest - Pelvis(40sec80sec)Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.45,1000,555.4,1000,,
+5.12, Chest - Pelvis(40sec80sec)Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,519.94,1000,,
+5.12, Chest - Pelvis(40sec80sec)Routine,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,745.91,1000,,
+5.14, Aorta CTA Routine SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.14, Aorta CTA Routine SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.14, Aorta CTA Routine SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.37, CCTA,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.37, CCTA,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,1,7.49,1000,104.91,1000,,
+5.43, CARTO Systole,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,17.3,50,250,103,0,1,1.53,1000,55.15,1000,,
+5.43, CARTO Systole,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Medium,120, true,25,100,740,103,0,1,6.83,1000,95.59,1000,,
+5.6, QQ PE + DVT Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.13,1000,376.12,1000,,
+5.6, QQ PE + DVT Routine,Series 2 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,80, true,11.6,150,600,102,0,2,5.47,1000,443.67,1000,,
+5.16, Chest HRCT,Series 1 Group 1 Scan Settings ,0.5, Axial,128, true, false, S0.0, Medium,100, true,14.7,100,570,102,0,2,10.47,1000,83.78,1000,,
+5.3, QQ Chest Routine  Body Assist,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,720,102,0,2,10.46,1000,613.5,1000,,
+5.3, QQ Chest Routine  Body Assist,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.46,1000,404.25,1000,,
+5.33, GSIX Chest-Pelvis Low CA ,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,12.2,100,700,102,0,2,10.46,1000,613.5,1000,,
+5.33, GSIX Chest-Pelvis Low CA ,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,317.43,1000,185,127
+5.9, P-Abd CE Chest-Pelvis Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.46,1000,665.81,1000,,
+5.9, P-Abd CE Chest-Pelvis Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.46,1000,665.81,1000,,
+5.45, GSIX - Aorta CTA SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,576.43,1000,,
+5.45, GSIX - Aorta CTA SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+5.45, GSIX - Aorta CTA SmartPrep,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,21.21,1000,1687.48,1000,435,127
+5.45, GSIX - Aorta CTA SmartPrep,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+5.31, GSIX PA PV (29s 90s),Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,14.7,100,700,102,0,2,10.46,1000,467.02,1000,,
+5.31, GSIX PA PV (29s 90s),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,979.21,1000,475,127
+5.31, GSIX PA PV (29s 90s),Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,979.21,1000,475,127
+5.35, GSIX Aorta CTA(CTA 100kV Delay Dual) ,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.35, GSIX Aorta CTA(CTA 100kV Delay Dual) ,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11,100,720,102,0,2,7.81,1000,492.88,1000,,
+5.35, GSIX Aorta CTA(CTA 100kV Delay Dual) ,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,555,1000,185,127
+5.38, CCTA + 4D,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.38, CCTA + 4D,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,475,102,0,1,35.67,1000,499.42,1000,,
+5.34, GSIX PA+PV+DVT(7s14s),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,5.58,1000,201.44,1000,195,127
+5.34, GSIX PA+PV+DVT(7s14s),Series 2 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,5.58,1000,201.44,1000,195,127
+5.34, GSIX PA+PV+DVT(7s14s),Series 2 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,80,,,,,102,0,2,8.8,1000,713.37,1000,185,127
+5.3, GSIX PE+ DVT (20s 80s 180s),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Large Body,100,,,,,103,0,2,5.58,1000,201.44,1000,195,127
+5.3, GSIX PE+ DVT (20s 80s 180s),Series 2 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,103,0,2,8.8,1000,317.43,1000,185,127
+5.3, GSIX PE+ DVT (20s 80s 180s),Series 2 Group 3 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,80,,,,,102,0,2,14.49,1000,1128.53,1000,270,63
+5.46, GSIX PE+ DVT(100kv),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Large Body,100,,,,,103,0,2,5.58,1000,201.44,1000,195,127
+5.46, GSIX PE+ DVT(100kv),Series 2 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,150,720,102,0,2,7.8,1000,632.8,1000,,
+5.8, P+CE Chest-Pelvis Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.44,1000,638.05,1000,,
+5.8, P+CE Chest-Pelvis Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.44,1000,638.05,1000,,
+5.28, GSIX Chest-Pelvis CEonly ,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,317.43,1000,185,127
+5.15, Aorta CTA (50s 90s) SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.15, Aorta CTA (50s 90s) SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.15, Aorta CTA (50s 90s) SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.15, Aorta CTA (50s 90s) SmartPrep,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.27, GSIX Chest-Pelvi P+CE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,720,102,0,2,20.05,1000,1325.64,1000,,
+5.27, GSIX Chest-Pelvi P+CE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+5.47, CABG Special ,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,14,100,700,102,0,1,1.53,1000,50.62,1000,,
+5.47, CABG Special ,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.47, CABG Special ,Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,470,102,0,1,8.56,1000,209.8,1000,,
+5.47, CABG Special ,Series 5 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,10.87,1000,555.46,1000,230,127
+5.5, Trauma Full Body DMPR,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Adult Head,120,,,,,101,0,0,56.45,1000,903.13,1000,340,
+5.5, Trauma Full Body DMPR,Series 3 Group 1 Scan Settings ,1, Helical,128, true, false, S0.0, Large Body,120, true,8.5,80,430,101,0,0,17.28,1000,547.84,1000,,
+5.5, Trauma Full Body DMPR,Series 4 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Large Body,100, true,16.6,100,720,101,0,0,5.28,1000,187.93,1000,,
+5.5, Trauma Full Body DMPR,Series 4 Group 2 Scan Settings ,0.5, Helical,128, false, false, S0.0, Large Body,120, true,12.3,100,740,101,0,0,17.01,1000,776.09,1000,,
+5.36, GSIX Aorta CTA(CTA 50s 90s)90s only Dual,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,648.98,1000,,
+5.36, GSIX Aorta CTA(CTA 50s 90s)90s only Dual,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11,100,720,102,0,2,7.81,1000,492.88,1000,,
+5.36, GSIX Aorta CTA(CTA 50s 90s)90s only Dual,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11,100,720,102,0,2,7.81,1000,492.88,1000,,
+5.36, GSIX Aorta CTA(CTA 50s 90s)90s only Dual,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,555,1000,185,127
+5.48, CABG Special2 ,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,14,100,700,102,0,1,1.53,1000,50.62,1000,,
+5.48, CABG Special2 ,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.48, CABG Special2 ,Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,470,102,0,1,8.56,1000,209.8,1000,,
+5.48, CABG Special2 ,Series 5 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,10.87,1000,555.46,1000,230,127
+5.48, CABG Special2 ,Series 5 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,10.87,1000,555.46,1000,230,127
+5.51, GSIX Chest-Pelvi CE all dual,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,804.67,1000,475,127
+5.51, GSIX Chest-Pelvi CE all dual,Series 2 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1270.1,1000,475,127
+5.51, GSIX Chest-Pelvi CE all dual,Series 2 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,804.67,1000,475,127
+5.7, QQ Full FOV Chest - Pelvis  80cm  ,Series 2 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Large Body,100, true,11.6,100,700,102,0,2,9.52,1000,564.71,1000,,
+5.7, QQ Full FOV Chest - Pelvis  80cm  ,Series 3 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Large Body,100, true,11.6,100,700,102,0,2,9.52,1000,564.71,1000,,
+5.41, CABG+CTA+180sDE,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,14,100,700,102,0,1,1.53,1000,109.46,1000,,
+5.41, CABG+CTA+180sDE,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Large,120, true,35,100,200,102,0,1,2.66,1000,42.6,1000,,
+5.41, CABG+CTA+180sDE,Series 4 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, true, false, S0.0, Cardiac Medium,120, true,25,100,450,102,0,1,8.49,1000,237.58,1000,,
+5.41, CABG+CTA+180sDE,Series 4 Group 2 Scan Settings ,0.8, Helical,128, false, false, S0.0, Medium,100, true,14,100,720,102,0,1,5,1000,360.74,1000,,
+5.41, CABG+CTA+180sDE,Series 5 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,10.87,1000,783.83,1000,230,127
+5.49, GSIX - Aorta CTA SmartPrep (120sDE),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.28,1000,577.01,1000,,
+5.49, GSIX - Aorta CTA SmartPrep (120sDE),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+5.49, GSIX - Aorta CTA SmartPrep (120sDE),Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,21.21,1000,1687.48,1000,435,127
+5.52, GSIX Chest-pelvi CTA (All Dual),Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,15.62,1000,1891.56,1000,,
+5.52, GSIX Chest-pelvi CTA (All Dual),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+5.52, GSIX Chest-pelvi CTA (All Dual),Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+6.11, Abd-FAT Routine,Series 1 Group 1 Scan Settings ,0.35, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,2,2.42,1000,1.21,1000,100,
+6.18, GSIX Abdomen-Pelvi P+CE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,720,102,0,2,20.05,1000,1325.64,1000,,
+6.18, GSIX Abdomen-Pelvi P+CE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.14, GSI - Abdomen-Pelvis,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,449.41,1000,215,127
+6.14, GSI - Abdomen-Pelvis,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,215,127
+6.1, QQ Abdomen-Pelvis Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1024.62,1000,,
+6.1, QQ Abdomen-Pelvis Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1124.84,1000,,
+6.9, Kunishima 4Phase (Smart Prep) Expiration,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,103,0,2,20.02,1000,1023.6,1000,,
+6.9, Kunishima 4Phase (Smart Prep) Expiration,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,103,0,2,20.02,1000,1123.72,1000,,
+6.9, Kunishima 4Phase (Smart Prep) Expiration,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,103,0,2,20.02,1000,1123.72,1000,,
+6.9, Kunishima 4Phase (Smart Prep) Expiration,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,103,0,2,20.02,1000,1123.72,1000,,
+6.9, Kunishima 4Phase (Smart Prep) Expiration,Series 3 Group 4 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,103,0,2,20.02,1000,1123.72,1000,,
+6.7, RCC 3Phase (30sec80sec300sec)PauseRoutine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.7, RCC 3Phase (30sec80sec300sec)PauseRoutine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.7, RCC 3Phase (30sec80sec300sec)PauseRoutine,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.7, RCC 3Phase (30sec80sec300sec)PauseRoutine,Series 4 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.6, RCC 3Phase (30sec80sec300sec)Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.6, RCC 3Phase (30sec80sec300sec)Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.6, RCC 3Phase (30sec80sec300sec)Routine,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.6, RCC 3Phase (30sec80sec300sec)Routine,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.5, HCC 4Phase (25sec40sec70sec180sec),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.5, HCC 4Phase (25sec40sec70sec180sec),Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.5, HCC 4Phase (25sec40sec70sec180sec),Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.5, HCC 4Phase (25sec40sec70sec180sec),Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.5, HCC 4Phase (25sec40sec70sec180sec),Series 3 Group 4 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.4, HCC 3Phase (40sec70sec180sec)Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.4, HCC 3Phase (40sec70sec180sec)Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.4, HCC 3Phase (40sec70sec180sec)Routine,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.4, HCC 3Phase (40sec70sec180sec)Routine,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.12, Abdomen 3Phase SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.12, Abdomen 3Phase SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.12, Abdomen 3Phase SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.12, Abdomen 3Phase SmartPrep,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.13, Abdomen 4Phase SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.13, Abdomen 4Phase SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.13, Abdomen 4Phase SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.13, Abdomen 4Phase SmartPrep,Series 3 Group 3 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.13, Abdomen 4Phase SmartPrep,Series 3 Group 4 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.15, GSI - Abdomen 2Phase SmartPrep,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,449.41,1000,215,127
+6.15, GSI - Abdomen 2Phase SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,215,127
+6.15, GSI - Abdomen 2Phase SmartPrep,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,215,127
+6.16, GSI - Abdomen 3Phase SmartPrep,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,449.41,1000,185,127
+6.16, GSI - Abdomen 3Phase SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.16, GSI - Abdomen 3Phase SmartPrep,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.16, GSI - Abdomen 3Phase SmartPrep,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.17, GSI - Abdomen 4Phase SmartPrep,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,449.41,1000,185,127
+6.17, GSI - Abdomen 4Phase SmartPrep,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.17, GSI - Abdomen 4Phase SmartPrep,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.17, GSI - Abdomen 4Phase SmartPrep,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.17, GSI - Abdomen 4Phase SmartPrep,Series 3 Group 4 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.36, RT Routin,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Medium,120, false,9,150,515,102,0,0,38.98,1000,1821.35,1000,,
+6.36, RT Routin,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Medium,120, false,9,150,515,102,0,0,38.98,1000,1821.35,1000,,
+6.23, GSIX Abdomen-Pelvis Low CA ,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Medium,100, true,12.2,100,700,102,0,2,10.45,1000,612.89,1000,,
+6.23, GSIX Abdomen-Pelvis Low CA ,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,317.43,1000,185,127
+6.24, GSIX Abdomen-Pelvi Liver Dynamic,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,720,102,0,2,20.03,1000,823.59,1000,,
+6.24, GSIX Abdomen-Pelvi Liver Dynamic,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.24, GSIX Abdomen-Pelvi Liver Dynamic,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.24, GSIX Abdomen-Pelvi Liver Dynamic,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.21, GSIX Dynamic(40s 70s 180s) 70s onlyDE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,9.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.21, GSIX Dynamic(40s 70s 180s) 70s onlyDE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.21, GSIX Dynamic(40s 70s 180s) 70s onlyDE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.21, GSIX Dynamic(40s 70s 180s) 70s onlyDE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.28, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 70s onlyDE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.28, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 70s onlyDE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.28, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 70s onlyDE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.28, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 70s onlyDE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.28, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 70s onlyDE,Series 3 Group 4 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.31, GSIX Pelvi umeda protocol CTA (22s 50s 90s) 90s onlyDE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.31, GSIX Pelvi umeda protocol CTA (22s 50s 90s) 90s onlyDE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.31, GSIX Pelvi umeda protocol CTA (22s 50s 90s) 90s onlyDE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.31, GSIX Pelvi umeda protocol CTA (22s 50s 90s) 90s onlyDE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.33, RT HCC 4D 2Phase 40s180s,Series 2 Group 1 Scan Settings ,1, Cine,256, false, false, S0.0, Medium,80, true,11.6,100,600,102,0,2,52.12,1000,833.85,1000,,
+6.33, RT HCC 4D 2Phase 40s180s,Series 2 Group 2 Scan Settings ,0.5, Cine,256, false, false, S0.0, Medium,80, true,11.6,100,600,102,0,2,64.38,1000,1030.09,1000,,
+6.25, GSI - Abdomen 3Phase SmartPrep - Copy,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,449.41,1000,185,127
+6.25, GSI - Abdomen 3Phase SmartPrep - Copy,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.25, GSI - Abdomen 3Phase SmartPrep - Copy,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.25, GSI - Abdomen 3Phase SmartPrep - Copy,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,102,0,2,8.8,1000,493.41,1000,185,127
+6.3, GSIX Pelvi umeda protocol CTA (50s 90s) 90s onlyDE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.3, GSIX Pelvi umeda protocol CTA (50s 90s) 90s onlyDE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.3, GSIX Pelvi umeda protocol CTA (50s 90s) 90s onlyDE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.3, GSIX Pelvi umeda protocol CTA (50s 90s) 90s onlyDE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.3, Abdomen 2Phase (40sec70sec),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.3, Abdomen 2Phase (40sec70sec),Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.3, Abdomen 2Phase (40sec70sec),Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.2, GSIX Chest-Pelvi - CE only,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.8, Abd Stone 2Phase (90sec5min)Pause,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1023.6,1000,,
+6.8, Abd Stone 2Phase (90sec5min)Pause,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.8, Abd Stone 2Phase (90sec5min)Pause,Series 4 Group 1 Scan Settings ,0.5, Axial,8, false, false, S0.0, Large Body,100,,,,,101,0,2,3.15,1000,1.57,1000,100,
+6.8, Abd Stone 2Phase (90sec5min)Pause,Series 5 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.02,1000,1123.72,1000,,
+6.1, Abd Aorta CTA Routine SmartPrep,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+6.1, Abd Aorta CTA Routine SmartPrep,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+6.1, Abd Aorta CTA Routine SmartPrep,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,648.33,1000,,
+6.19, GSIX Abdomen-Pelvi - CE only,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.34, RT Radiation Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Large Body,120, true,14,100,720,102,0,2,25.58,1000,1226.1,1000,,
+6.34, RT Radiation Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1124.84,1000,,
+6.22, GSIX Radiation Planning CT ,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,26.01,1000,1375.81,1000,475,63
+6.35, RT HCC 4D Test,Series 2 Group 1 Scan Settings ,0.28, Cine,256, false, false, S0.0, Medium,120, true,16.4,100,600,102,0,2,137.15,1000,2194.37,1000,,
+6.35, RT HCC 4D Test,Series 3 Group 1 Scan Settings ,0.28, Axial,256, false, false, S0.0, Medium,120, true,16.4,100,600,102,0,2,140.76,1000,2252.14,1000,,
+6.26, GSIX Abdomen-Pelvi Liver Dynamic all dual,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,804.67,1000,475,127
+6.26, GSIX Abdomen-Pelvi Liver Dynamic all dual,Series 2 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1270.1,1000,475,127
+6.26, GSIX Abdomen-Pelvi Liver Dynamic all dual,Series 2 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,804.67,1000,475,127
+6.2, Abdomen-Pelvis Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1024.62,1000,,
+6.2, Abdomen-Pelvis Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1124.84,1000,,
+6.27, Abdomen-Pelvis 4D,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,720,102,0,2,20.04,1000,1024.62,1000,,
+6.27, Abdomen-Pelvis 4D,Series 3 Group 1 Scan Settings ,0.28, Axial,256, false, false, S0.0, Medium,100, true,15.3,100,600,102,0,2,254.31,1000,4068.98,1000,,
+6.27, Abdomen-Pelvis 4D,Series 3 Group 2 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,600,102,0,2,6.39,1000,294.77,1000,,
+6.32, GSIX Abd CTA (All Dual),Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,15.62,1000,1891.56,1000,,
+6.32, GSIX Abd CTA (All Dual),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,185,127,102,0,2,8.8,1000,1065.32,1000,,,,
+6.32, GSIX Abd CTA (All Dual),Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,185,127,102,0,2,8.8,1000,1065.32,1000,,,,
+6.29, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 40s 70s DE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.29, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 40s 70s DE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.29, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 40s 70s DE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.29, GSIX Pelvi umeda protocol CTA(40s 70s 180s) 40s 70s DE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.4,100,635,102,0,2,20.05,1000,1125.15,1000,,
+6.37, RT HCC 2Phase 40s180s,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Medium,120, true,9,100,600,102,0,2,4.35,1000,157.2,1000,,
+6.37, RT HCC 2Phase 40s180s,Series 2 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Medium,120, true,9,100,600,102,0,2,8.34,1000,301.31,1000,,
+6.39, GSIX Pelvi CTA(40s 70s 180s) all DE,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.39, GSIX Pelvi CTA(40s 70s 180s) all DE,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.39, GSIX Pelvi CTA(40s 70s 180s) all DE,Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+6.39, GSIX Pelvi CTA(40s 70s 180s) all DE,Series 3 Group 3 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1305.01,1000,475,127
+7.2, QQ Th-Spine Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,11.6,150,700,102,0,2,8.66,1000,295.1,1000,,
+7.4, QQ Whole Spine Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,11.6,150,700,102,0,2,8.66,1000,416.36,1000,,
+7.5, C-Spine non Helical Routine,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, false, false, S0.0, Small Body,100, true,5,150,700,101,0,0,9.36,1000,262.05,1000,,
+7.1, QQ C-Spine Helical MAR Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,5,150,700,102,0,2,8.66,1000,260.45,1000,,
+7.3, QQ L-Spine Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Body,100, true,11.6,150,700,102,0,2,8.66,1000,295.1,1000,,
+7.1, GSI - Th-Spine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,14.49,1000,418.69,1000,380,63
+7.11, GSI - L-Spine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,14.49,1000,534.59,1000,380,63
+7.12, GSI - Whole Spine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,14.49,1000,679.45,1000,380,63
+7.7, GSIX  Th-Spine Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,14.49,1000,476.64,1000,270,63
+7.6, GSIX  L-Spine Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,14.49,1000,476.64,1000,270,63
+7.8, GSIX  C-Spine Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,14.49,1000,476.64,1000,270,63
+7.9, GSIX  Whole-Spine Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,100,,,,,102,0,2,14.49,1000,476.64,1000,270,63
+8.4, QQ Hip Joint Routine MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,150,720,102,0,2,20.02,1000,923.48,1000,,
+8.2, GSI - Pelvis,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,2,13.5,1000,444.22,1000,380,63
+8.2, GSI - Pelvis,Series 3 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,102,0,2,13.5,1000,444.22,1000,380,63
+8.3, GSI - Hip Joint,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,13.5,1000,390.21,1000,380,63
+8.1, QQ Pelvis Rotine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,150,720,102,0,2,20.04,1000,924.41,1000,,
+8.1, QQ Pelvis Rotine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,150,720,102,0,2,20.04,1000,924.41,1000,,
+8.5, GSIX Hip Joint Routine MAR,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,23.27,1000,1072.29,1000,475,127
+9.1, QQ Lower Extremity Heiical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Medium,100, true,4.1,100,570,101,0,0,10.18,1000,538.5,1000,,
+9.15, nonHelical 8slice Routine ,Series 2 Group 1 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 2 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 3 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 4 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 5 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 6 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 7 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.15, nonHelical 8slice Routine ,Series 2 Group 8 Scan Settings ,1, Axial,8, false, false, S0.0, Medium,100,,,,,102,0,0,5.53,1000,2.77,1000,80,
+9.2, QQ Knee/Ankle Helical HR Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Medium,100, true,4.1,100,450,101,0,0,10.25,1000,267.11,1000,,
+9.3, Knee/Ankle non-Herical HR Routine,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Medium,100, true,4.1,100,500,102,0,0,12.15,1000,291.65,1000,,
+9.16, ASO SmartPrep(CTA 90s 180s),Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.27,1000,1434.11,1000,,
+9.16, ASO SmartPrep(CTA 90s 180s),Series 3 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.18,1000,1388.12,1000,,
+9.16, ASO SmartPrep(CTA 90s 180s),Series 3 Group 2 Scan Settings ,0.8, Helical,64, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.18,1000,1388.12,1000,,
+9.16, ASO SmartPrep(CTA 90s 180s),Series 3 Group 3 Scan Settings ,0.8, Helical,64, false, false, S0.0, Medium,100, true,11.6,100,700,102,0,2,10.18,1000,1388.12,1000,,
+9.13, Ankle Axial ,Series 2 Group 1 Scan Settings ,1, Axial, SmartCollimation, true, false, S0.0, Medium,100, true,4.1,100,500,102,0,0,12.15,1000,291.65,1000,,
+9.14, Ankle Helical ,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Medium,100, true,4.1,100,450,101,0,0,10.25,1000,267.11,1000,,
+9.9, GSI - Lower Extremity,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,8.42,1000,505.59,1000,215,127
+9.1, GSI - Knee,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,13.5,1000,309.21,1000,380,63
+9.5, GSIX ASO Prep(CTA+Return all dual),Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,15.6,1000,1889.67,1000,,
+9.5, GSIX ASO Prep(CTA+Return all dual),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+9.5, GSIX ASO Prep(CTA+Return all dual),Series 3 Group 2 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+9.5, GSIX ASO Prep(CTA+Return all dual),Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+9.8, ASO 80keV SmartPrep Routine,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,80, true,11.6,100,600,102,0,2,3.98,1000,481.93,1000,,
+9.8, ASO 80keV SmartPrep Routine,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,80, true,11.6,100,600,102,0,2,3.98,1000,481.93,1000,,
+9.8, ASO 80keV SmartPrep Routine,Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,80, true,11.6,100,600,102,0,2,3.98,1000,481.93,1000,,
+9.4, GSIX ASO Prep (CE All Dual),Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,15.6,1000,1889.67,1000,,
+9.4, GSIX ASO Prep (CE All Dual),Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+9.4, GSIX ASO Prep (CE All Dual),Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100,,,,,102,0,2,8.8,1000,1065.32,1000,185,127
+9.11, GSI - Ankle,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,13.5,1000,309.21,1000,380,63
+9.12, GSIX - Knee Routine,Series 2 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Medium,120,,,,,101,0,0,23.71,1000,697.15,1000,435,63
+9.7, ASO SmartPrep Routine,Series 2 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,635,102,0,2,7.8,1000,944.83,1000,,
+9.7, ASO SmartPrep Routine,Series 3 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,600,102,0,2,7.8,1000,944.83,1000,,
+9.7, ASO SmartPrep Routine,Series 4 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,100, true,11.6,100,600,102,0,2,7.8,1000,944.83,1000,,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 1 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 2 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 3 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 4 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 5 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 6 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 7 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.6, nonHelical 8slice Routine  - 80cm,Series 2 Group 8 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100,,,,,102,0,0,3.38,1000,13.51,1000,80,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 1 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,0,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 2 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 3 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 4 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 5 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 6 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 7 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+9.17, nonHelical 8slice Routine  - 80cm AEC,Series 2 Group 8 Scan Settings ,1, Axial,64, false, false, S0.0, Large Body,100, true,10,100,700,102,0,2,8.45,1000,33.78,1000,,
+10.1, GSI test 40mm Axial,,1, Axial,64, false, false, S0.0, Large Body,120,,,,,101,0,0,8.35,1000,33.4,1000,215,
+10.2, GSI test 40mm Helical,Series 1 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Large Body,120,,,,,101,0,0,9.31,1000,70.38,1000,200,33
+10.3, GSI test 40mm Helical HP,Series 1 Group 1 Scan Settings ,0.5, Helical,64, false, false, S0.0, Large Body,120,,,,,101,0,0,3.49,1000,27.19,1000,200,88
+10.4, GSI test 80mm Helical L,Series 1 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,9.24,1000,94.28,1000,200,65
+10.5, GSI test 80mm Helical L HP,Series 1 Group 1 Scan Settings ,1, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,6.35,1000,102.09,1000,185,176
+10.6, GSI test 80mm Helical XL,Series 1 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,26.13,1000,266.76,1000,530,65
+10.7, GSI test 80mm Helical XL HP,Series 1 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Large Body,120,,,,,101,0,0,9.65,1000,155.18,1000,530,176
+10.8, GSI test 40mm Head,Series 1 Group 1 Scan Settings ,1, Helical,64, false, false, S0.0, Adult Head,120,,,,,101,0,0,57.31,1000,433.29,1000,270,33
+10.9, Smart Step,Series 2 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Large Body,120, true,14.7,150,700,103,0,2,12.73,1000,517.34,1000,,
+10.9, Smart Step,Series 3 Group 1 Scan Settings ,0.5, Fluoro,8, false, false, S0.0, Large Body,80,,,,,,,,227,1000,113.5,1000,80,
+10.9, Smart Step,Series 4 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Large Body,120, true,14.7,150,700,103,0,2,12.73,1000,517.34,1000,,
+10.11, Test Injection,Series 1 Group 1 Scan Settings ,1, Axial,8, false, false, S0.0, Large Body,120,,,,,102,0,2,40.93,1000,20.47,1000,20,
+10.16, Stress 50-59BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.16, Stress 50-59BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.16, Stress 50-59BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,36.53,1000,365.25,1000,150,
+10.18, Stress 70-89BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.18, Stress 70-89BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.18, Stress 70-89BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,26.79,1000,267.85,1000,150,
+10.2, Rest 30-39BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,12.18,1000,121.75,1000,150,
+10.2, Rest 30-39BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,14.97,1000,209.58,1000,440,
+10.2, Rest 30-39BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,6.09,1000,60.88,1000,150,
+10.2, Rest 30-39BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+10.22, Rest 50-59BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,18.26,1000,182.63,1000,150,
+10.22, Rest 50-59BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,14.97,1000,209.58,1000,440,
+10.22, Rest 50-59BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,10.96,1000,109.58,1000,150,
+10.22, Rest 50-59BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+10.24, Rest 70-89BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,13.39,1000,133.93,1000,150,
+10.24, Rest 70-89BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,27.12,1000,379.73,1000,440,
+10.24, Rest 70-89BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,8.52,1000,85.23,1000,150,
+10.24, Rest 70-89BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+10.14, Stress 30-39BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.14, Stress 30-39BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.14, Stress 30-39BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,24.35,1000,243.5,1000,150,
+10.15, Stress 40-49BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.15, Stress 40-49BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.15, Stress 40-49BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,30.44,1000,304.38,1000,150,
+10.17, Stress 60-69BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.17, Stress 60-69BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.17, Stress 60-69BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,20.7,1000,206.98,1000,150,
+10.19, Stress 90-140BPM,Series 2 Group 1 Scan Settings ,0.35, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,120, true,32,50,200,102,0,1,1.09,1000,13.03,1000,,
+10.19, Stress 90-140BPM,Series 3 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,4.85,1000,48.55,1000,265,
+10.19, Stress 90-140BPM,Series 4 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,28,1000,280.03,1000,150,
+10.21, Rest 40-49BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,14.61,1000,146.1,1000,150,
+10.21, Rest 40-49BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,14.97,1000,209.58,1000,440,
+10.21, Rest 40-49BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,9.74,1000,97.4,1000,150,
+10.21, Rest 40-49BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+10.23, Rest 60-69BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,10.96,1000,109.58,1000,150,
+10.23, Rest 60-69BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,27.12,1000,379.73,1000,440,
+10.23, Rest 60-69BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,7.31,1000,73.05,1000,150,
+10.23, Rest 60-69BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+10.25, Rest 90-140BPM,Series 1 Group 1 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,13.39,1000,133.93,1000,150,
+10.25, Rest 90-140BPM,Series 1 Group 2 Scan Settings ,0.28, Cardiac,224, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,20.85,1000,291.84,1000,440,
+10.25, Rest 90-140BPM,Series 1 Group 3 Scan Settings ,0.28, Cardiac,160, false, false, S0.0, Cardiac Small,100,,,,,102,0,0,12.18,1000,121.75,1000,150,
+10.25, Rest 90-140BPM,Series 2 Group 1 Scan Settings ,0.28, Cardiac, SmartCollimation, false, false, S0.0, Cardiac Small,80,,,,,102,0,1,9.21,1000,92.1,1000,575,
+11.5, Child Head 6-10y Routine,Series 2 Group 1 Scan Settings ,0.7, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,680,101,0,0,40.66,1000,569.3,1000,,
+11.5, Child Head 6-10y Routine,Series 3 Group 1 Scan Settings ,0.7, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,680,101,0,0,34.48,1000,551.74,1000,,
+11.3, Child Head 0y Routine,Series 2 Group 1 Scan Settings ,0.6, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,680,101,0,0,32.92,1000,460.86,1000,,
+11.3, Child Head 0y Routine,Series 3 Group 1 Scan Settings ,0.6, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,680,101,0,0,34.6,1000,553.66,1000,,
+11.4, Child Head 1-5y Routine,Series 2 Group 1 Scan Settings ,0.8, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,720,101,0,0,46.47,1000,650.63,1000,,
+11.4, Child Head 1-5y Routine,Series 3 Group 1 Scan Settings ,0.8, Axial, SmartCollimation, false, false, S0.0, Small Head,100, false,3.2,100,720,101,0,0,34.6,1000,553.66,1000,,
+11.2, Child Brain non-Helical Routine ODM+,Series 2 Group 1 Scan Settings ,1, Axial,256, false, false, S0.0, Adult Head,100, false,4,200,400,101,0,0,36.88,1000,590.06,1000,,
+11.1, Child Brain-Head Routine ODM+,Series 2 Group 1 Scan Settings ,0.8, Helical,64, false, false, S0.0, Small Head,100, false,4,150,400,102,0,0,47.99,1000,1395.14,1000,,
+12.1, Child Orbit Sinus Helical Routine ODM+,Series 2 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Small Head,100, false,10,100,330,101,0,0,8.12,1000,137.38,1000,,
+12.1, Child Orbit Sinus Helical Routine ODM+,Series 3 Group 1 Scan Settings ,0.6, Helical,64, false, false, S0.0, Adult Head,100, true,6.1,100,330,101,0,0,9.2,1000,166.24,1000,,
+13.1, Neck Volume,Series 2 Group 1 Scan Settings ,0.5, Axial, SmartCollimation, false, false, S0.0, Small Body,100, true,10,100,500,101,0,0,7.39,1000,103.39,1000,,
+13.2, Child C-Spine Helical MAR Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, true,12,150,700,102,0,2,8.69,1000,279.26,1000,,
+14.1, Child Shoulder Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,128, true, false, S0.0, Small Body,100, true,7.8,150,570,102,0,2,8.26,1000,237.14,1000,,
+14.2, Child Arm on Abd Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, true,7.8,200,700,102,0,2,8.46,1000,237.87,1000,,
+14.4, Hand Tendon 140keV Helical,Series 2 Group 1 Scan Settings ,1, Helical,64, true, false, S0.0, Small Body,140, true,3,200,405,102,0,0,16.46,1000,560.53,1000,,
+14.3, Child Arm over Head Helical MAR,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Small Body,100, true,7.8,100,450,102,0,0,8.66,1000,225.66,1000,,
+ 15.1.5, Child Arm 0y 1Volume Routine ,Series 2 Group 1 Scan Settings ,0.35, Axial, SmartCollimation, false, false, S0.0, Small Body,80, false,16.8,50,600,102,0,0,4.08,1000,65.31,1000,,
+ 15.1.5, Child Arm 0y 1Volume Routine ,Series 3 Group 1 Scan Settings ,0.35, Axial, SmartCollimation, false, false, S0.0, Small Body,80, true,16.8,50,600,102,0,0,4.08,1000,65.31,1000,,
+ 15.1.6, Child Arm1-5y Helical Routine,Series 2 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,100, false,16.8,50,700,102,0,0,6.77,1000,156.61,1000,,
+ 15.1.6, Child Arm1-5y Helical Routine,Series 3 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,100, true,16.8,50,700,102,0,0,6.77,1000,153.23,1000,,
+ 15.1.4, Child Chest 0y 1Volume Routine,Series 2 Group 1 Scan Settings ,0.35, Axial, SmartCollimation, false, false, S0.0, Small Body,80, false,16.8,50,600,102,0,0,4.08,1000,65.31,1000,,
+ 15.1.4, Child Chest 0y 1Volume Routine,Series 3 Group 1 Scan Settings ,0.35, Axial, SmartCollimation, false, false, S0.0, Small Body,80, true,16.8,50,600,102,0,0,4.08,1000,65.31,1000,,
+ 15.1.1, Child Chest 1-5y Helical Routine,Series 2 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,100, false,16.8,50,700,102,0,0,6.77,1000,156.61,1000,,
+ 15.1.1, Child Chest 1-5y Helical Routine,Series 3 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,100, true,16.8,50,700,102,0,0,6.77,1000,153.23,1000,,
+ 15.1.2, Child Chest 6-10y Helical Routine,Series 2 Group 1 Scan Settings ,0.28, Helical,128, false, false, S0.0, Small Body,100, false,16.8,50,720,102,0,2,5.11,1000,125.59,1000,,
+ 15.1.2, Child Chest 6-10y Helical Routine,Series 3 Group 1 Scan Settings ,0.28, Helical,128, false, false, S0.0, Small Body,100, true,16.8,50,720,102,0,2,5.11,1000,123.04,1000,,
+ 15.1.3, Child Arm 6-10y Helical Routine,Series 2 Group 1 Scan Settings ,0.28, Helical,128, false, false, S0.0, Small Body,100, false,16.8,50,720,102,0,2,5.11,1000,125.59,1000,,
+ 15.1.3, Child Arm 6-10y Helical Routine,Series 3 Group 1 Scan Settings ,0.28, Helical,128, false, false, S0.0, Small Body,100, true,16.8,50,720,102,0,2,5.11,1000,123.04,1000,,
+15.1, Child Chest Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Small Body,100, false,14.7,100,700,102,0,2,8.83,1000,517.85,1000,,
+15.1, Child Chest Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Small Body,100, false,14.7,100,700,102,0,2,8.83,1000,341.22,1000,,
+ 16.1.1, Child Abd 0y 1Volume Routine,Series 2 Group 1 Scan Settings ,0.5, Axial, SmartCollimation, false, false, S0.0, Small Body,80, false,16.8,50,560,102,0,0,4.07,1000,65.19,1000,,
+ 16.1.1, Child Abd 0y 1Volume Routine,Series 3 Group 1 Scan Settings ,0.5, Axial, SmartCollimation, false, false, S0.0, Small Body,80, true,16.8,50,560,102,0,0,4.07,1000,65.19,1000,,
+ 16.1.2, Child Abd 1-5y Helical Routine,Series 2 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Small Body,100, false,16.8,50,560,102,0,0,6.78,1000,156.77,1000,,
+ 16.1.2, Child Abd 1-5y Helical Routine,Series 3 Group 1 Scan Settings ,0.5, Helical,128, false, false, S0.0, Small Body,100, true,16.8,50,560,102,0,0,6.78,1000,153.39,1000,,
+ 16.1.3, Child Abd 6-10y Helical Routine,Series 2 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,120, false,16.8,50,600,102,0,2,10.43,1000,256.22,1000,,
+ 16.1.3, Child Abd 6-10y Helical Routine,Series 3 Group 1 Scan Settings ,0.35, Helical,128, false, false, S0.0, Small Body,120, true,16.8,50,600,102,0,2,10.43,1000,251,1000,,
+16.1, Child Abdomen-Pelvis Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, false,11.6,100,720,102,0,2,16.92,1000,864.87,1000,,
+16.1, Child Abdomen-Pelvis Routine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, false,11.6,100,720,102,0,2,16.92,1000,949.46,1000,,
+17.1, Child L-Spine Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, true,11.6,150,700,102,0,2,8.46,1000,305.55,1000,,
+18.1, Child Pelvis Rotine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, false,11.6,150,720,102,0,2,16.99,1000,793.82,1000,,
+18.1, Child Pelvis Rotine,Series 3 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Medium,100, true,11.6,150,720,102,0,2,20.04,1000,924.41,1000,,
+19.1, Child Lower Extremity Heiical Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,128, false, false, S0.0, Small Body,100, true,4.1,100,570,101,0,0,8.58,1000,481.33,1000,,
+19.2, Child Knee/Ankle Helical HR Routine,Series 2 Group 1 Scan Settings ,0.6, Helical,64, true, false, S0.0, Medium,100, true,4.1,100,450,101,0,0,10.25,1000,267.11,1000,,
