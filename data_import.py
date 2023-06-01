@@ -28,6 +28,7 @@ def preprocess_import_data(df):
 
     # hospital_wardのNaNは'外来'を意味する
     df.loc[df['hospital_ward'].isna(), 'hospital_ward'] = '外来'
-
+    
     df.reset_index(inplace=True)
-    df.drop('index', axis=1, inplace=True)
+    df.drop(['index', 'kV', 'rotation_time', 'scan_protocol', 'scan_series'], axis=1, inplace=True)
+    
