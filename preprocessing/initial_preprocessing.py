@@ -12,6 +12,9 @@ def initial_preprocessing(df):
     3. 特定の撮影機種に対するデータの選択：'modality'が'Revolution'の行だけを選択します。
     4. 特定のカラムの削除：'room'カラムを削除します。
     5. NaNの補完：'hospital_ward'カラムのNaNは'外来'に変更します。
+    6. `scan protocol` 列が "GSIX" を含むデータは `scan_method` 列の値を "Dual Energy" に変更します。
+    7. `pitch factor` 列が NaN のデータは 1.0 に置換します。
+
 
     Parameters
     ----------
@@ -45,6 +48,13 @@ def initial_preprocessing(df):
     
     # hospital_wardのNaNは外来に変更する
     df.loc[df['hospital_ward'].isna(), 'hospital_ward'] = '外来'
+    
+    # GSIXのスキャンはDual Energyとして判定
+    dual_index = df[df['scan protocol'].str.contains('GSIX')].index.to_list()
+    df.loc[dual_index, 'scan_method'] = 'Dual Energy'
+    
+    # pitch factorがNaNはコンベンショナルスキャンであるので、pitch factorに１を代入する
+    df['pitch factor'].fillna(1.0, inplace=True)
 
     
     df.reset_index(drop=True, inplace=True)
