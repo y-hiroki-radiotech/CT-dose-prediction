@@ -32,7 +32,7 @@ def initial_preprocessing(df):
     """
     
     # rename用の関数の作成
-    columns = columns={'検査時年齢': 'age', '性別': 'gender', '身長（ｃｍ）': 'height_cm', '体重（ｋｇ）': 'weight_kg',
+    columns={'検査時年齢': 'age', '性別': 'gender', '身長（ｃｍ）': 'height_cm', '体重（ｋｇ）': 'weight_kg',
                         '依頼科名称': 'department', '入院病棟名称': 'hospital_ward', '実施検査室名称': 'room', 
                        '撮影機種': 'modality', 'プリセット名称': 'preset_name', '実施検査日(YYYYMMDD)': 'study_date',
                         '部位名称': 'scan_area', '検査方法': 'scan_method', 'ACCESSIONNO': 'accession', '患者ID': 'id', }

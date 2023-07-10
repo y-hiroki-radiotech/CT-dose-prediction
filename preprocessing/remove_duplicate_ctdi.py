@@ -18,7 +18,6 @@ def remove_duplicate_ctdi(df):
     duplicated_accession_set = set(df_duplicated['accession'])
     
     # 複数スキャンの最大値のindexのみ取得する
-    # 複数スキャンの最大値のindexのみ取得する
     max_indices = df_duplicated.groupby('accession')['Mean CTDIvol'].idxmax()
     result_df = df_duplicated.loc[max_indices].reset_index(drop=True)
     df = pd.concat([df_not_duplicated, result_df], axis=0)
