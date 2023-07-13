@@ -162,3 +162,4 @@ cython_debug/
 scan_data/
 *.xlsx
 *.csv
+not_use/
