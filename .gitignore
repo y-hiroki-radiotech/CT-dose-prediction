@@ -163,3 +163,4 @@ scan_data/
 *.xlsx
 *.csv
 not_use/
+preprocessed_train_data.xlsx
