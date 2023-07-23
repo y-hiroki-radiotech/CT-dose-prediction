@@ -164,3 +164,4 @@ scan_data/
 *.csv
 not_use/
 preprocessed_train_data.xlsx
+*.db
