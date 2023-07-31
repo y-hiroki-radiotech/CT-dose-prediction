@@ -6,6 +6,9 @@ def remove_duplicate_ctdi(df):
     """この関数は、読み込んだデータフレームの複数回スキャンした検査のCTDIのうち最大値のスキャンデータを残します。
     　　　　　　単独スキャンデータにデータを結合したデータフレームを返す
     """
+    # prepと脂肪測定はnomial total collimation widthが5であることに注目して除外する
+    df = df[~(df['nomial total collimation width'] == 5)]
+    
     unique_data_num = len(df['accession'].unique())
     
     # 重複データの抽出
@@ -21,6 +24,10 @@ def remove_duplicate_ctdi(df):
     max_indices = df_duplicated.groupby('accession')['Mean CTDIvol'].idxmax()
     result_df = df_duplicated.loc[max_indices].reset_index(drop=True)
     df = pd.concat([df_not_duplicated, result_df], axis=0)
+    df.reset_index(drop=True, inplace=True)
+    # 脳CTAでperfusionで撮影したものは名前の変更
+    df.loc[df[df['scan protocol'].str.contains('Perfusion')].index, 'scan_area'] = '脳Perfusion'
+    
     
     # 処理が正常に行われたかどうかprintする
     if unique_data_num == len(df):
