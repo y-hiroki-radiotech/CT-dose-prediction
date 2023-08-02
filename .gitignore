@@ -165,3 +165,4 @@ scan_data/
 not_use/
 preprocessed_train_data.xlsx
 *.db
+*.txt
