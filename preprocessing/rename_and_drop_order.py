@@ -38,11 +38,21 @@ def rename_and_drop_order_one_scan_ctdi(df):
     df.loc[df[df['scan_area'].str.contains('膝')].index, 'scan_area'] = '大腿・膝・下腿CT'
     df.loc[df[df['scan_area'].str.contains('下肢')].index, 'scan_area'] = '大腿・膝・下腿CT'
     
+    # DICCTを上腹部CTに統一
+    df.loc[df[df['scan_area'].str.contains('DICCT（造影）')].index, 'scan_area'] = '上腹部CT'
+    
     
     # 削除するオーダー名は、左上肢シャントCT,仙椎・尾骨CT,胸骨CT、その他上肢、を削除
     df.drop(index=df[df['scan_area'].str.contains('上肢')].index, inplace=True)
     df.drop(index=df[df['scan_area'].str.contains('仙椎・尾骨CT')].index, inplace=True)
     df.drop(index=df[df['scan_area'].str.contains('胸骨')].index, inplace=True)
+    
+    # 放射線治療や普段使わない,または稀なプロトコールの排除
+    df.drop(index=df[df['scan protocol'].str.contains('9.6 nonHelical 8slice Routine  - 80cm')].index, inplace=True)
+    df.drop(index=df[df['scan protocol'].str.contains('6.9 Kunishima')].index, inplace=True)
+    df.drop(index=df[df['scan protocol'].str.contains('6.26 Abdomen-Pelvis 4D')].index, inplace=True)
+    df.drop(index=df[df['scan protocol'].str.contains('4.12 Hand Tendon 140keV nonHelical')].index, inplace=True)
+    
     
     df.reset_index(drop=True, inplace=True)
     
