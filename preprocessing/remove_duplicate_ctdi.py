@@ -34,13 +34,8 @@ def remove_duplicate_ctdi(df):
     df = pd.concat([df_not_duplicated, result_df], axis=0)
     df.reset_index(drop=True, inplace=True)
     
-    # 脳CTAでperfusionで撮影したものは名前の変更
-    df.loc[df[df['scan protocol'].str.contains('Perfusion')].index, 'scan_area'] = '脳Perfusion'
-    
     
     # 副鼻腔はヘッドレストを使ってないものを除く（現在作業中）
-    
-    df.reset_index(drop=True, inplace=True)
     
     
     # 処理が正常に行われたかどうかprintする

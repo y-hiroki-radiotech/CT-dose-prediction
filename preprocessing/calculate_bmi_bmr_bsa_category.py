@@ -16,7 +16,12 @@ def categorize_bmi(bmi):
     return 'obesity class4'
 
 
-def calculate_bmi_bmr_category(df):
+def calculate_bsa(height_cm, weight_kg):
+    bsa = 0.007184 * (height_cm ** 0.725) * (weight_kg ** 0.425)
+    return bsa
+
+
+def calculate_bmi_bmr_bsa_category(df):
     
     """
     入力となるデータフレームの各レコードに対してBMI、BMR、およびBMIのカテゴリを計算します。
@@ -47,3 +52,6 @@ def calculate_bmi_bmr_category(df):
     
     
     df['category_bmi'] = df['bmi'].apply(categorize_bmi)
+    
+    # Calculate body surface area for each row in the data
+    df['body_surface_area'] = calculate_bsa(df['height_cm'], df['weight_kg'])
