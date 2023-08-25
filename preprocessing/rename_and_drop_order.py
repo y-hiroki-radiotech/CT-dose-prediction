@@ -73,6 +73,14 @@ def rename_and_drop_order_one_scan_ctdi(df):
     scan_method_to_change = 'Dual Energy'
     kV_value_to_change = 100
     new_scan_method = '単純'
+    
+    # Dual Energyの最終確認
+    dual_protocols = df[df['scan protocol'].str.contains('GSIX')]['scan_area'].unique()
+    for dual_protocol in dual_protocols:
+        if dual_protocol not in ['体幹部Dual Energy CT', '肺塞栓CT']:
+            dual_index = df[(df['scan_area'] == dual_protocol) & (df['scan protocol'].str.contains('GSIX'))].index
+            df.loc[dual_index, 'scan_area'] = '体幹部Dual Energy CT'
+    
 
     # Make the change in the dataframe
     df.loc[(df['scan_method'] == scan_method_to_change) & (df['kV'] == kV_value_to_change), 'scan_method'] = new_scan_method
@@ -80,7 +88,8 @@ def rename_and_drop_order_one_scan_ctdi(df):
     df.reset_index(drop=True, inplace=True)
     
     # 冠動脈・肺静脈スキャンを1回あたりのCTDIvolに変更
-    df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '冠動脈CT' or row['scan_area'] == '肺静脈' else row['Mean CTDIvol'], axis=1)
+    df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '冠動脈CT' else row['Mean CTDIvol'], axis=1)
+    df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '肺静脈' else row['Mean CTDIvol'], axis=1)
     
     
     
