@@ -89,7 +89,7 @@ def rename_and_drop_order_one_scan_ctdi(df):
     
     # 冠動脈・肺静脈スキャンを1回あたりのCTDIvolに変更
     df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '冠動脈CT' else row['Mean CTDIvol'], axis=1)
-    df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '肺静脈' else row['Mean CTDIvol'], axis=1)
+    df['Mean CTDIvol'] = df.apply(lambda row: row['Mean CTDIvol'] / (row['exposure time'] / row['exposure time per rotation']) if row['scan_area'] == '肺静脈CT' else row['Mean CTDIvol'], axis=1)
     
     
     
